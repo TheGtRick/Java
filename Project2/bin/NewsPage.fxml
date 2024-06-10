@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<Scene xmlns="http://javafx.com/javafx/8.0.201" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NewsPageController">
+    <Pane fx:id="pane" prefHeight="570.0" prefWidth="600.0">
+      <children>
+         <Pane fx:id="pane1" layoutX="14.0" layoutY="146.0" prefHeight="200.0" prefWidth="270.0" style="-fx-background-color: #000;">
+            <children>
+               <ImageView fitHeight="133.0" fitWidth="140.0" layoutX="69.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@Technology.png" />
+                  </image>
+               </ImageView>
+               <Button fx:id="Tech" layoutX="90.0" layoutY="156.0" mnemonicParsing="false" onAction="#Button1" prefHeight="30.0" prefWidth="90.0" style="-fx-background-color: #dfc490;" text="Technology">
+                  <font>
+                     <Font name="System Bold" size="13.0" />
+                  </font>
+               </Button>
+            </children>
+         </Pane>
+         <Pane fx:id="pane2" layoutX="315.0" layoutY="146.0" prefHeight="200.0" prefWidth="270.0" style="-fx-background-color: #000;">
+            <children>
+               <ImageView fitHeight="129.0" fitWidth="140.0" layoutX="70.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@Sport.png" />
+                  </image>
+               </ImageView>
+               <Button fx:id="Sport" layoutX="90.0" layoutY="156.0" mnemonicParsing="false" onAction="#Button2" prefHeight="30.0" prefWidth="90.0" style="-fx-background-color: #dfc490;" text="Sports">
+                  <font>
+                     <Font name="System Bold" size="13.0" />
+                  </font>
+               </Button>
+            </children>
+         </Pane>
+         <Pane fx:id="pane3" layoutX="14.0" layoutY="361.0" prefHeight="200.0" prefWidth="270.0" style="-fx-background-color: #000;">
+            <children>
+               <ImageView fitHeight="126.0" fitWidth="140.0" layoutX="72.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@Business.png" />
+                  </image>
+               </ImageView>
+               <Button fx:id="Busy" layoutX="90.0" layoutY="156.0" mnemonicParsing="false" onAction="#Button3" prefHeight="30.0" prefWidth="90.0" style="-fx-background-color: #dfc490;" text="Business">
+                  <font>
+                     <Font name="System Bold" size="13.0" />
+                  </font>
+               </Button>
+            </children>
+         </Pane>
+         <Pane fx:id="pane4" layoutX="315.0" layoutY="361.0" prefHeight="200.0" prefWidth="270.0" style="-fx-background-color: #000;">
+            <children>
+               <ImageView fitHeight="122.0" fitWidth="140.0" layoutX="74.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@Economy.png" />
+                  </image>
+               </ImageView>
+               <Button fx:id="Eco" layoutX="90.0" layoutY="156.0" mnemonicParsing="false" onAction="#Button4" prefHeight="30.0" prefWidth="90.0" style="-fx-background-color: #dfc490;" text="Economy">
+                  <font>
+                     <Font name="System Bold" size="13.0" />
+                  </font>
+               </Button>
+            </children>
+         </Pane>
+         <Pane fx:id="pane0" layoutX="7.0" layoutY="14.0" prefHeight="120.0" prefWidth="585.0" style="-fx-background-color: #000;">
+            <children>
+               <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="41.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@NewsIcon.png" />
+                  </image>
+               </ImageView>
+               <Label layoutX="216.0" layoutY="25.0" prefHeight="35.0" prefWidth="300.0" text="Here you can see the news" textFill="WHITE">
+                  <font>
+                     <Font name="System Bold" size="24.0" />
+                  </font>
+               </Label>
+               <Button fx:id="Button0" layoutX="216.0" layoutY="74.0" mnemonicParsing="false" onAction="#Contact" prefHeight="30.0" prefWidth="130.0" style="-fx-background-color: transparent; -fx-border-color: #fff;" text="CONTACT US" textFill="WHITE">
+                  <font>
+                     <Font name="System Bold" size="14.0" />
+                  </font>
+               </Button>
+               <Button fx:id="exit" layoutX="386.0" layoutY="75.0" mnemonicParsing="false" onAction="#Exit" prefHeight="30.0" prefWidth="130.0" text="Exit">
+                  <font>
+                     <Font name="System Bold" size="14.0" />
+                  </font>
+               </Button>
+               <Line fx:id="line" endX="5.0" endY="100.0" layoutX="169.0" layoutY="8.0" scaleX="3.0" startX="5.0" startY="3.0" stroke="WHITE" />
+            </children>
+         </Pane>
+      </children></Pane>
+</Scene>

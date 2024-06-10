@@ -1,0 +1,5 @@
+Remember me : false
+Username : rai
+Password : rai
+Email : rai
+Gender : Male

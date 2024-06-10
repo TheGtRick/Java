@@ -1,0 +1,7 @@
+Employee ID : 2
+Employee Name : 1
+Age : 1
+Email Information : 1
+Position : 1
+Employee Contact : 1
+Employee Salary : 1.0

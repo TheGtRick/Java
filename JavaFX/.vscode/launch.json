@@ -1,0 +1,85 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MTS",
+            "request": "launch",
+            "mainClass": "MTS",
+            "projectName": "JavaFX_218db11b"
+        },
+        {
+            "type": "java",
+            "name": "Activity14C2",
+            "request": "launch",
+            "mainClass": "Activity14C2",
+            "projectName": "JavaFX_218db11b"
+        },
+        {
+            "type": "java",
+            "name": "Activity14C1",
+            "request": "launch",
+            "mainClass": "Activity14C1",
+            "projectName": "JavaFX_218db11b"
+        },
+        {
+            "type": "java",
+            "name": "Activity14B2",
+            "request": "launch",
+            "mainClass": "Activity14B2",
+            "projectName": "JavaFX_218db11b"
+        },
+        {
+            "type": "java",
+            "name": "Activity14B1",
+            "request": "launch",
+            "mainClass": "Activity14B1",
+            "projectName": "JavaFX_218db11b"
+        },
+        {
+            "type": "java",
+            "name": "Activity14A1",
+            "request": "launch",
+            "mainClass": "Activity14A1",
+            "projectName": "JavaFX_218db11b"
+        },
+        {
+            "type": "java",
+            "name": "Activity14A2",
+            "request": "launch",
+            "mainClass": "Activity14A2",
+            "projectName": "JavaFX_218db11b"
+        },
+        {
+            "type": "java",
+            "name": "Activity7",
+            "request": "launch",
+            "mainClass": "Activity7",
+            "projectName": "JavaFX_218db11b"
+        },
+        {
+            "type": "java",
+            "name": "Activity6",
+            "request": "launch",
+            "mainClass": "Activity6",
+            "projectName": "JavaFX_218db11b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "JavaFX_218db11b",
+            "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-19.0.2.1/lib\" --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}

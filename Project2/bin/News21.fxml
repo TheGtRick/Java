@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Scene xmlns="http://javafx.com/javafx/8.0.201" xmlns:fx="http://javafx.com/fxml/1" fx:controller="News21Controller">
+    <Pane fx:id="pane1" prefHeight="500.0" prefWidth="600.0">
+      <children>
+         <Pane fx:id="pane4" layoutX="14.0" layoutY="14.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #000;">
+            <children>
+               <ImageView fitHeight="116.0" fitWidth="180.0" layoutX="13.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@Example1.jpg" />
+                  </image>
+               </ImageView>
+            </children>
+         </Pane>
+         <Pane fx:id="pane5" layoutX="14.0" layoutY="175.0" prefHeight="150.0" prefWidth="200.0" style="-fx-background-color: #000;">
+            <children>
+               <ImageView fitHeight="121.0" fitWidth="170.0" layoutX="18.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+                  <image>
+                     <Image url="@Example2.jpg" />
+                  </image>
+               </ImageView>
+            </children>
+         </Pane>
+         <Pane fx:id="pane3" layoutX="246.0" layoutY="14.0" prefHeight="460.0" prefWidth="340.0" style="-fx-background-color: #000;">
+            <children>
+               <Text fill="WHITE" layoutX="30.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="101011010101010100101011001100101101010011001001010101010101001100101001011110110101010101010110110010100101010101011001001010100101010101010101100110111101011111101010110101111111101101101010111001010010101101100101011010101011010101011010101010110011010101011011010101010010101011010101001010010101010101010100101010110010101010101010101010100101010101010010101001010101101011010101010101010101010101010010101010101010101010101010101010101010101010101010101010101010100101010100101010101001010101010100101001010101101010101" wrappingWidth="280.0">
+                  <font>
+                     <Font name="System Bold" size="14.0" />
+                  </font>
+               </Text>
+               <Label layoutX="119.0" layoutY="14.0" text="News" textFill="WHITE">
+                  <font>
+                     <Font name="System Bold" size="24.0" />
+                  </font>
+               </Label>
+            </children>
+         </Pane>
+         <Pane fx:id="pane2" layoutX="14.0" layoutY="356.0" prefHeight="120.0" prefWidth="200.0" style="-fx-background-color: #000;">
+            <children>
+               <Button fx:id="Button1" layoutX="35.0" layoutY="20.0" mnemonicParsing="false" onAction="#Next" prefHeight="30.0" prefWidth="130.0" style="-fx-background-color: #dfc490; -fx-border-color: #000;" text="Next">
+                  <font>
+                     <Font name="System Bold" size="14.0" />
+                  </font>
+               </Button>
+               <Button fx:id="Button2" layoutX="35.0" layoutY="67.0" mnemonicParsing="false" onAction="#Exit" prefHeight="30.0" prefWidth="130.0" style="-fx-background-color: #dfc490; -fx-border-color: #000;" text="Exit">
+                  <font>
+                     <Font name="System Bold" size="14.0" />
+                  </font>
+               </Button>
+            </children>
+         </Pane>
+      </children></Pane>
+</Scene>
